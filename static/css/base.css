@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cover-height : 40vh;
+    --footer-height : 10vh;
+    --main-bg-color : #D1DA35;
+    --main-bg-color-darker : #B2B851;
+    --navbar-bg-color : #35D1DA;
+    --button-bg-color : #AA2222; 
+    --button-hover-color : #FF0000;
+    --main-text-color : black;
+    --navlink-hover-color : black;
+    --navlink-main-color : white;
+    --judul-font-size : 5vw;
+    background-color: var(--main-bg-color-darker);
+}
+
+#header {
+    background-image: url("../image/gamelan.jpg");
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    vertical-align: middle;
+}
+
+#header > .cover {
+    height: var(--cover-height);
+    width: auto;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header > .cover > .judul {
+  	font-family: serif;
+  	font-size: var(--judul-font-size);
+    color: white;
+	text-align: center; 
+	margin: auto;
+}
+
+.yellowTextBorder {
+    text-shadow: -1px -1px 0 #D1DA35, 1px -1px 0 #D1DA35, -1px 1px 0 #D1DA35, 1px 1px 0 #D1DA35;
+}
+
+#content {
+    min-height: calc(100vh - var(--cover-height) - var(--footer-height));
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-button {
+    margin: 10px;
+    cursor: pointer;
+    min-height: 10vh;
+    min-width: 30vw;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--button-bg-color);
+    border: 2px solid black;
+    transition: 0.5s ease-out;
+}
+
+.nav-button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.batas {
+    width:400px;
+    height: 2px;
+    margin: 32px auto;
+    border: 0px;
+    background-color: aquamarine;
+}
+
+#footer{
+    height: var(--footer-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    background: black;
+    text-align: center;
+}
+
+#footer > p {
+    color: grey;
+    padding: 0;
+    margin: 0;
+}

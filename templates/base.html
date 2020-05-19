@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div id="header">
+		<div class="cover">
+            <h1 class="judul yellowTextBorder">Indonesia-Sunda Translator</h1>
+        </div>
+  	</div>
+    <div id="content">
+    {% block body %}{% endblock %}
+    </div>
+    <div id="footer">
+		<p>Mario Gunawan</p>
+		<p>2020</p>
+		<p>Email : 13518114@std.stei.itb.ac.id</p>
+	</div>
+</body>
+</html>

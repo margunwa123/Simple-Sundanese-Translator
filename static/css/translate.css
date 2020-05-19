@@ -1,0 +1,16 @@
+.translateBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.translateBox > * {
+    margin: 1vh 0;
+}
+
+#textBox {
+    width: 80%;
+    height: 10vh;
+}

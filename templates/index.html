@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Indonesia-Sunda Translator</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+{% block body %}
+    <h1>Selamat datang !</h1>
+    <p>Website ini adalah website untuk mentranslate bahasa indonesia ke bahasa sunda dan sebaliknya.</p>
+    <p>Adapun program ini dibuat untuk memenuhi tugas dari Lab IRK ITB, yaitu membuat website menggunakan backend python. Program ini dibuat menggunakan library flask</p>
+    <hr class="batas">
+
+    <p>Silahkan pilih opsi translate dibawah ini</p>
+    <div class="buttonContainer">
+        <form action="/sunda/">
+            <input type="submit" value="Sunda ->Indonesia" class="nav-button">
+        </form>
+        <form action="/indonesia/">
+            <input type="submit" value="Indonesia -> Sunda" class="nav-button">
+        </form>
+    </div>
+{% endblock %}
