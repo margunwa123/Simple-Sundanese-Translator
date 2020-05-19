@@ -15,7 +15,7 @@ class TehManager:
         newSentence = [word.strip() for word in sentence.split()]
         i = 0
         while(i < len(newSentence)):
-            if(newSentence[i] in TehManager.kataGantiOrang):
+            if(newSentence[i] in TehManager.kataGantiOrang and i != (len(newSentence) - 1)):
                 newSentence.insert(i+1, "teh")
                 i += 1
             i += 1
