@@ -7,48 +7,27 @@
 
 {% block body %}
     
-    <h4>Masukkan kalimat yang ingin diterjemahkan</h4>
     <form class="translateBox" action="/{{ translator.language }}/" method="POST">
-        <label for="algoritma">Pilih algoritma yang ingin digunakan</label>
-        <select name="algoritma" id="algoritma">
-            <option value="KMP" selected="selected">Knuth-Morris-Pratt</option>
-            <option value="BM">Boyer-Moore</option>
-            <option value="REGEX">Regular Expression</option>
-        </select>
+        <label for="algoritma">Pilih algoritma yang ingin digunakan : 
+            <select name="algoritma" id="algoritma">
+                <option value="KMP" selected="selected">Knuth-Morris-Pratt</option>
+                <option value="BM">Boyer-Moore</option>
+                <option value="REGEX">Regular Expression</option>
+            </select>
+        </label>
         {% if translator.language == "indonesia" %}
         <label for="useTeh">
             <input type="checkbox" id="useTeh" name="useTeh" id="option1" value="useTeh"> Pakai penekanan(teh)
         </label>
         {% endif %}
-        <input type="text" name="text" id="textBox">
-        <input type="submit" value="Translate!">
+        <h4>Masukkan kalimat yang ingin diterjemahkan</h4>
+        <input type="text" name="text" id="textBox" autocomplete="off">
+        <input type="submit" value="Translate!" class="nav-button">
     </form>
     <hr class="batas">
     <h4>Hasil terjemahan : </h4>
-    <p>{{ translatedSentence }} </p>
-    <!-- <h1>Task Master</h1>
-
-    {% if tasks|length < 1 %}
-    <h4>There are no tasks. Create one below!</h4>
-    {% else %}
-    <table>
-        <tr>
-            <th>Task</th>
-            <th>Added</th>
-            <th>Actions</th>
-        </tr>
-        {% for task in tasks %}
-            <tr>
-                <td>{{ task.content }}</td>
-                <td>{{ task.date_created.date() }}</td>
-                <td>
-                    <a href="/delete/{{task.id}}">Delete</a>
-                    <br>
-                    <a href="/update/{{task.id}}">Update</a>
-                </td>
-            </tr>
-        {% endfor %}
-    </table>
-    {% endif %}
-     -->
+    <hr>
+    <div class="translated">
+        <p>{{ translatedSentence }} </p>
+    </div>
 {% endblock %}

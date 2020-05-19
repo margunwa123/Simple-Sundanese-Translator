@@ -6,6 +6,7 @@ class TehManager:
     kataGantiOrang = ["pribados", "urang", "aing", "abdi", "dewek",\
         "kaula", "kuring", "anjeun", "hidep", "maneh", "sia", "anjeunna",\
         "manehna"]
+    uselessWord = ["atuh", "mah", "tuman"]
     def useTeh(sentence):
         """
             menambahkan teh terhadap suatu kalimat , tepatnya setelah
@@ -23,7 +24,7 @@ class TehManager:
             result += word + " "
         return result.strip()
 
-    def deleteTeh(sentence):
+    def deleteUselessWord(sentence):
         """
             menghapus teh dari suatu kalimat bila teh ada setelah
             kata ganti orang
@@ -37,6 +38,8 @@ class TehManager:
                         newSentence.pop(i+1)
                 except IndexError as error: # kalo udah di index terakhir, diemin
                     pass
+            elif(newSentence[i] in TehManager.uselessWord):
+                newSentence.pop(i)
             i += 1
         result = ""
         for word in newSentence:
