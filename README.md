@@ -19,6 +19,10 @@ Library yang digunakan adalah flask
 4. Pilih opsi terjemahan
 5. Masukan kalimat yang ingin diterjemahkan
 
+## Video
+link youtube video : https://www.youtube.com/watch?v=Cpj8a6_J4DQ
+(usahakan 720p quality supaya text terlihat)
+
 ## Hasil Program
 
 **Index**
@@ -30,3 +34,4 @@ Library yang digunakan adalah flask
 **Contoh hasil terjemahan**
 ![1](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan1.png)
 ![2](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan2.png)
+
