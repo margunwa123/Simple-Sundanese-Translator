@@ -47,4 +47,7 @@ class Translator(VocabLoader):
         return translatedSentence.strip();
 
     def fromSentence(self):
-        return self.hist.pop()
+        try:
+            return self.hist.pop()
+        except:
+            return ""
