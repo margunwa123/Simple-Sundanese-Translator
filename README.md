@@ -20,4 +20,13 @@ Library yang digunakan adalah flask
 5. Masukan kalimat yang ingin diterjemahkan
 
 ## Hasil Program
-1. 
+
+**Index**
+* ![Index](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/Index.png)
+**Index**
+* ![Indo To Sunda Page](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/indoToSundaPage.png)
+**Index**
+* ![Sunda To Indo Page](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/sundaToIndoPage.png)
+**Contoh hasil terjemahan**
+* ![1](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan1.png)
+* ![2](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan2.png)
