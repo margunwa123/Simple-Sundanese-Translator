@@ -22,11 +22,11 @@ Library yang digunakan adalah flask
 ## Hasil Program
 
 **Index**
-* ![Index](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/Index.png)
-**Index**
-* ![Indo To Sunda Page](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/indoToSundaPage.png)
-**Index**
-* ![Sunda To Indo Page](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/sundaToIndoPage.png)
+![Index](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/Index.png)
+**Halaman Indonesia Ke Sunda**
+![Indo To Sunda Page](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/indoToSundaPage.png)
+**Halaman Sunda Ke Indonesia**
+![Sunda To Indo Page](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/sundaToIndoPage.png)
 **Contoh hasil terjemahan**
-* ![1](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan1.png)
-* ![2](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan2.png)
+![1](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan1.png)
+![2](https://github.com/margunwa123/Simple-Sundanese-Translator/blob/master/static/tampilan/contohHasilTerjemahan2.png)
